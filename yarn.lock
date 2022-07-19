@@ -1266,21 +1266,6 @@
   "resolved" "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
   "version" "2.0.4"
 
-"@monaco-editor/loader@^1.3.2":
-  "integrity" "sha512-BTDbpHl3e47r3AAtpfVFTlAi7WXv4UQ/xZmz8atKl4q7epQV5e7+JbigFDViWF71VBi4IIBdcWP57Hj+OWuc9g=="
-  "resolved" "https://registry.npmjs.org/@monaco-editor/loader/-/loader-1.3.2.tgz"
-  "version" "1.3.2"
-  dependencies:
-    "state-local" "^1.0.6"
-
-"@monaco-editor/react@4.4.5":
-  "integrity" "sha512-IImtzU7sRc66OOaQVCG+5PFHkSWnnhrUWGBuH6zNmH2h0YgmAhcjHZQc/6MY9JWEbUtVF1WPBMJ9u1XuFbRrVA=="
-  "resolved" "https://registry.npmjs.org/@monaco-editor/react/-/react-4.4.5.tgz"
-  "version" "4.4.5"
-  dependencies:
-    "@monaco-editor/loader" "^1.3.2"
-    "prop-types" "^15.7.2"
-
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
   "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -1769,7 +1754,7 @@
     "@strapi/utils" "4.2.3"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@^4.0.0", "@strapi/strapi@4.2.3":
+"@strapi/strapi@4.2.3":
   "integrity" "sha512-kK7sBD1/xX5Kf4knESZcYF4mUTrbbLVt15v62UROcnga7ZNWt4QlzVJEL8y6R02n1HWVg6brslQ9aegLE08E8Q=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.2.3.tgz"
   "version" "4.2.3"
@@ -2771,7 +2756,7 @@
     "inherits" "^2.0.4"
     "readable-stream" "^3.4.0"
 
-"bluebird@^3.5.0", "bluebird@^3.5.1", "bluebird@3.5.1":
+"bluebird@^3.5.0", "bluebird@3.5.1":
   "integrity" "sha512-MKiLiV+I1AA596t9w1sQJ8jkiSr5+ZKi0WKrYGUn6d1Fx+Ij4tIj+m2WMQSGczs5jZVxV339chE8iwk6F64wjA=="
   "resolved" "https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz"
   "version" "3.5.1"
@@ -3826,15 +3811,6 @@
   "integrity" "sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA=="
   "resolved" "https://registry.npmjs.org/csstype/-/csstype-3.1.0.tgz"
   "version" "3.1.0"
-
-"csvtojson@2.0.10":
-  "integrity" "sha512-lUWFxGKyhraKCW8Qghz6Z0f2l/PqB1W3AO0HKJzGIQ5JRSlR651ekJDiGJbBT4sRNNv5ddnSGVEnsxP9XRCVpQ=="
-  "resolved" "https://registry.npmjs.org/csvtojson/-/csvtojson-2.0.10.tgz"
-  "version" "2.0.10"
-  dependencies:
-    "bluebird" "^3.5.1"
-    "lodash" "^4.17.3"
-    "strip-bom" "^2.0.0"
 
 "dashdash@^1.12.0":
   "integrity" "sha512-jRFi8UDGo6j+odZiEpjazZaWqEal3w/basFjQHQEwVtZJGDpxbH1MeYluwCS8Xq5wmLJooDlMgvVarmWfGM44g=="
@@ -5972,11 +5948,6 @@
   dependencies:
     "upper-case" "^1.1.0"
 
-"is-utf8@^0.2.0":
-  "integrity" "sha512-rMYPYvCzsXywIsldgLaSoPlw5PfoB/ssr7hY4pLfcodrA5M/eArza1a9VmTiNIBNMjOGr1Ow9mTyU2o69U6U9Q=="
-  "resolved" "https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz"
-  "version" "0.2.1"
-
 "is-weakref@^1.0.2":
   "integrity" "sha512-qctsuLZmIQ0+vSSMfoVvyFe2+GSEvnmZ2ezTup1SBse9+twCCeial6EEi3Nc2KFcf6+qz2FBPnjXsk8xhKSaPQ=="
   "resolved" "https://registry.npmjs.org/is-weakref/-/is-weakref-1.0.2.tgz"
@@ -6493,7 +6464,7 @@
   "resolved" "https://registry.npmjs.org/loader-runner/-/loader-runner-4.3.0.tgz"
   "version" "4.3.0"
 
-"loader-utils@^2.0.0", "loader-utils@^2.0.2":
+"loader-utils@^2.0.0":
   "integrity" "sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A=="
   "resolved" "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.2.tgz"
   "version" "2.0.2"
@@ -6571,7 +6542,7 @@
   "resolved" "https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz"
   "version" "4.1.1"
 
-"lodash@^4.17.11", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.3", "lodash@4.17.21":
+"lodash@^4.17.11", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@4.17.21":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -6982,18 +6953,6 @@
   "integrity" "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w=="
   "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
   "version" "2.29.4"
-
-"monaco-editor-webpack-plugin@7.0.1":
-  "integrity" "sha512-M8qIqizltrPlIbrb73cZdTWfU9sIsUVFvAZkL3KGjAHmVWEJ0hZKa/uad14JuOckc0GwnCaoGHvMoYtJjVyCzw=="
-  "resolved" "https://registry.npmjs.org/monaco-editor-webpack-plugin/-/monaco-editor-webpack-plugin-7.0.1.tgz"
-  "version" "7.0.1"
-  dependencies:
-    "loader-utils" "^2.0.2"
-
-"monaco-editor@>= 0.21.0 < 1", "monaco-editor@>= 0.25.0 < 1", "monaco-editor@>= 0.31.0", "monaco-editor@0.33.0":
-  "integrity" "sha512-VcRWPSLIUEgQJQIE0pVT8FcGBIgFoxz7jtqctE+IiCxWugD0DwgyQBcZBhdSrdMC84eumoqMZsGl2GTreOzwqw=="
-  "resolved" "https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.33.0.tgz"
-  "version" "0.33.0"
 
 "mongodb@3.7.3":
   "integrity" "sha512-Psm+g3/wHXhjBEktkxXsFMZvd3nemI0r3IPsE0bU+4//PnvNWKkzhZcEsbPcYiWqe8XqXJJEg4Tgtr7Raw67Yw=="
@@ -8175,7 +8134,7 @@
     "fast-deep-equal" "^3.1.3"
     "hoist-non-react-statics" "^3.3.2"
 
-"react-dom@^15.3.0 || ^16.0.0-alpha", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@>= 16.8.0", "react-dom@>=16.6.0":
+"react-dom@^15.3.0 || ^16.0.0-alpha", "react-dom@^16.8.0 || ^17.0.0", "react-dom@>= 16.8.0", "react-dom@>=16.6.0":
   "integrity" "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz"
   "version" "16.14.0"
@@ -8362,11 +8321,6 @@
   "resolved" "https://registry.npmjs.org/react-side-effect/-/react-side-effect-2.1.2.tgz"
   "version" "2.1.2"
 
-"react-singleton-hook@3.3.0":
-  "integrity" "sha512-U0qLp7LkpqPAnSQkKNPQmMd0mhar8hAm4VL+3y/bJFoi9H817wl+gM0z7RAMfOE49E8tlCMroEavqwJa6wItlg=="
-  "resolved" "https://registry.npmjs.org/react-singleton-hook/-/react-singleton-hook-3.3.0.tgz"
-  "version" "3.3.0"
-
 "react-transition-group@^4.3.0":
   "integrity" "sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg=="
   "resolved" "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.2.tgz"
@@ -8389,7 +8343,7 @@
     "prop-types" "^15.7.2"
     "react-lifecycles-compat" "^3.0.4"
 
-"react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.3.0 || ^16.0.0-alpha", "react@^15.3.0 || 16 || 17 || 18", "react@^16.14.0", "react@^16.3.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.3.0 || 17", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.3 || ^17 || ^18", "react@>= 16.14", "react@>= 16.8.0", "react@>=15", "react@>=16.13.1", "react@>=16.3", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8.0", "react@15 - 18":
+"react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.3.0 || ^16.0.0-alpha", "react@^15.3.0 || 16 || 17 || 18", "react@^16.14.0", "react@^16.3.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.3.0 || 17", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17 || ^18", "react@>= 16.14", "react@>= 16.8.0", "react@>=15", "react@>=16.13.1", "react@>=16.3", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8.0":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
@@ -9427,11 +9381,6 @@
   "resolved" "https://registry.npmjs.org/stackframe/-/stackframe-1.3.4.tgz"
   "version" "1.3.4"
 
-"state-local@^1.0.6":
-  "integrity" "sha512-HTEHMNieakEnoe33shBYcZ7NX83ACUjCu8c40iOGEZsngj9zRnkqS9j1pqQPXwobB0ZcVTk27REb7COQ0UR59w=="
-  "resolved" "https://registry.npmjs.org/state-local/-/state-local-1.0.7.tgz"
-  "version" "1.0.7"
-
 "static-extend@^0.1.1":
   "integrity" "sha512-72E9+uLc27Mt718pMHt9VMNiAL4LMsmDbBva8mxWUCkT07fSzEGMYUCk0XWY6lp0j6RBAG4cJ3mWuZv2OE3s0g=="
   "resolved" "https://registry.npmjs.org/static-extend/-/static-extend-0.1.2.tgz"
@@ -9464,17 +9413,6 @@
   "integrity" "sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw=="
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.1.1.tgz"
   "version" "3.1.1"
-
-"strapi-plugin-import-export-entries@^1.6.5":
-  "integrity" "sha512-bpC5j+Ig3IGnzKxUPhcsRlkROMcsSyeiEDna7KhNAlErXTOQUeWi/7NMbfnuLx96W0sulpUAn+mQWoXfUEWtIQ=="
-  "resolved" "https://registry.npmjs.org/strapi-plugin-import-export-entries/-/strapi-plugin-import-export-entries-1.6.7.tgz"
-  "version" "1.6.7"
-  dependencies:
-    "@monaco-editor/react" "4.4.5"
-    "csvtojson" "2.0.10"
-    "monaco-editor" "0.33.0"
-    "monaco-editor-webpack-plugin" "7.0.1"
-    "react-singleton-hook" "3.3.0"
 
 "stream-browserify@^3.0.0":
   "integrity" "sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA=="
@@ -9565,13 +9503,6 @@
   "version" "6.0.1"
   dependencies:
     "ansi-regex" "^5.0.1"
-
-"strip-bom@^2.0.0":
-  "integrity" "sha512-kwrX1y7czp1E69n2ajbG65mIo9dqvJ+8aBQXOGVxqwvNbsXdFM6Lq37dLAY3mknUwru8CfcCbfOLL/gMo+fi3g=="
-  "resolved" "https://registry.npmjs.org/strip-bom/-/strip-bom-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "is-utf8" "^0.2.0"
 
 "strip-eof@^1.0.0":
   "integrity" "sha512-7FCwGGmx8mD5xQd3RPUvnSpUXHM3BWuzjtpD4TXsfcZ9EL4azvVVUscFYwD9nx8Kh+uCBC00XBtAykoMHwTh8Q=="
@@ -10280,7 +10211,7 @@
   "resolved" "https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.2.3.tgz"
   "version" "3.2.3"
 
-"webpack@^4.0.0 || ^5.0.0", "webpack@^4.37.0 || ^5.0.0", "webpack@^4.40.0 || ^5.0.0", "webpack@^4.5.0 || 5.x", "webpack@^5.0.0", "webpack@^5.1.0", "webpack@^5.20.0", "webpack@^5.73.0", "webpack@>=2", "webpack@>=4.43.0 <6.0.0", "webpack@>=5", "webpack@3 || 4 || 5", "webpack@4.x.x || 5.x.x":
+"webpack@^4.0.0 || ^5.0.0", "webpack@^4.37.0 || ^5.0.0", "webpack@^4.40.0 || ^5.0.0", "webpack@^5.0.0", "webpack@^5.1.0", "webpack@^5.20.0", "webpack@^5.73.0", "webpack@>=2", "webpack@>=4.43.0 <6.0.0", "webpack@>=5", "webpack@3 || 4 || 5", "webpack@4.x.x || 5.x.x":
   "integrity" "sha512-svjudQRPPa0YiOYa2lM/Gacw0r6PvxptHj4FuEKQ2kX05ZLkjbVc5MnPs6its5j7IZljnIqSVo/OsY2X0IpHGA=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.73.0.tgz"
   "version" "5.73.0"
