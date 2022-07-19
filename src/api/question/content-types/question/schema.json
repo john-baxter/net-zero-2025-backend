@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "singularName": "question",
+    "pluralName": "questions",
+    "displayName": "Question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question_text": {
+      "type": "string"
+    },
+    "answer_text_correct": {
+      "type": "string"
+    },
+    "answer_text_wrong_1": {
+      "type": "string"
+    },
+    "answer_text_wrong_2": {
+      "type": "string"
+    },
+    "answer_text_wrong_3": {
+      "type": "string"
+    }
+  }
+}

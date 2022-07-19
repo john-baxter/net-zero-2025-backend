@@ -4,7 +4,8 @@
   "info": {
     "singularName": "definition",
     "pluralName": "definitions",
-    "displayName": "definition"
+    "displayName": "Definition",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
