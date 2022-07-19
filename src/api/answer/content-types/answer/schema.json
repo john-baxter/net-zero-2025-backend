@@ -4,7 +4,8 @@
   "info": {
     "singularName": "answer",
     "pluralName": "answers",
-    "displayName": "Answer"
+    "displayName": "Answer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,9 @@
       "relation": "manyToOne",
       "target": "api::question.question",
       "inversedBy": "answers"
+    },
+    "is_correct": {
+      "type": "boolean"
     }
   }
 }
