@@ -4,7 +4,8 @@
   "info": {
     "singularName": "question",
     "pluralName": "questions",
-    "displayName": "Question"
+    "displayName": "Question",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,17 +15,11 @@
     "question_text": {
       "type": "string"
     },
-    "answer_text_correct": {
-      "type": "string"
-    },
-    "answer_text_wrong_1": {
-      "type": "string"
-    },
-    "answer_text_wrong_2": {
-      "type": "string"
-    },
-    "answer_text_wrong_3": {
-      "type": "string"
+    "answers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::answer.answer",
+      "mappedBy": "question"
     }
   }
 }
