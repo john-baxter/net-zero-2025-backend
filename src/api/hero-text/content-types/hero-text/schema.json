@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_texts",
+  "info": {
+    "singularName": "hero-text",
+    "pluralName": "hero-texts",
+    "displayName": "HeroText"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_text_content": {
+      "type": "richtext"
+    }
+  }
+}
