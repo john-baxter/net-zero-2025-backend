@@ -4,7 +4,8 @@
   "info": {
     "singularName": "stat-point",
     "pluralName": "stat-points",
-    "displayName": "StatPoint"
+    "displayName": "StatPoint",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

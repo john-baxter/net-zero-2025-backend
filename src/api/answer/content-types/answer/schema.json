@@ -23,12 +23,6 @@
     },
     "is_correct": {
       "type": "boolean"
-    },
-    "stat_results": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::stat-result.stat-result",
-      "mappedBy": "stat_point"
     }
   }
 }
