@@ -4,7 +4,8 @@
   "info": {
     "singularName": "stat-result",
     "pluralName": "stat-results",
-    "displayName": "StatResult"
+    "displayName": "StatResult",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,7 +21,7 @@
     "stat_point": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::answer.answer",
+      "target": "api::stat-point.stat-point",
       "inversedBy": "stat_results"
     }
   }
