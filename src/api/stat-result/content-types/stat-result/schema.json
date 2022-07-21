@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stat_results",
+  "info": {
+    "singularName": "stat-result",
+    "pluralName": "stat-results",
+    "displayName": "StatResult"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "responses": {
+      "type": "integer"
+    },
+    "stat_point": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::answer.answer",
+      "inversedBy": "stat_results"
+    }
+  }
+}

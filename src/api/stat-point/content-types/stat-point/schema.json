@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stat_points",
+  "info": {
+    "singularName": "stat-point",
+    "pluralName": "stat-points",
+    "displayName": "StatPoint"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stat": {
+      "type": "string"
+    },
+    "rationale": {
+      "type": "richtext"
+    }
+  }
+}
